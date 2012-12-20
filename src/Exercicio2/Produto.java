@@ -4,13 +4,13 @@ public class Produto {
 	
 	String nome;
 	int id;
-	float preco;
+	Double preco;
 	
 	public Produto (){
-		this(" Não Infomado", 0 , 0 );
+		this(" Não Infomado", 0 , 0.0 );
 	}
 	
-	public Produto (String nome, int id, float preco){
+	public Produto (String nome, int id, Double preco){
 		this.nome = nome;
 		this.id = id;
 		this.preco = preco;
@@ -32,11 +32,11 @@ public class Produto {
 		this.id = id;
 	}
 
-	public float getPreco() {
+	public Double getPreco() {
 		return preco;
 	}
 
-	public void setPreco(float preco) {
+	public void setPreco(Double preco) {
 		this.preco = preco;
 	}
 	

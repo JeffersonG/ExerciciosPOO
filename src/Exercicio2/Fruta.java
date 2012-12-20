@@ -3,10 +3,10 @@ package Exercicio2;
 public class Fruta extends ProdutoPerecivel {
 
 	public Fruta (){
-		super(" Não Informado", 0, 0);
+		super(" Não Informado", 0, 0.0);
 	}
 	
-	public Fruta (String nome, int id, float preco){
+	public Fruta (String nome, int id, double preco){
 		super.nome = nome;
 		super.id = id;
 		super.preco = preco;

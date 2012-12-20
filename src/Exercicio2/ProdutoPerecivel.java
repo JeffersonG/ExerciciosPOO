@@ -5,10 +5,10 @@ public class ProdutoPerecivel extends Produto {
 	String vencimento;
 	
 	public ProdutoPerecivel (){
-		super("Não Informado", 0, 0);
+		super("Não Informado", 0, 0.0);
 	}
 	
-	public ProdutoPerecivel (String nome, int id, float preco){
+	public ProdutoPerecivel (String nome, int id, Double preco){
 		super.nome = nome;
 		super.id = id;
 		super.preco = preco;
